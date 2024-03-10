@@ -1,0 +1,38 @@
+# PyBuilder
+target/
+
+# DotEnv configuration
+.env
+
+# Database
+*.db
+*.rdb
+
+# Pycharm
+.idea
+
+# Jupyter NB Checkpoints
+.ipynb_checkpoints/
+
+# Mac OS-specific storage files
+.DS_Store
+
+# vim
+*.swp
+*.swo
+
+# Distribution / packaging
+.Python
+env/
+build/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.dll
+*/__pycache__/
+*.py[cod]
+*$py.class
+
+#Jupyter NB
+*.ipynb
+

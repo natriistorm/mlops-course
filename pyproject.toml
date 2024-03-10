@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "keyword-extraction"
+version = "0.1.0"
+description = "Project for extracting tags (keywords) from Stack Overflow questions"
+authors = ["natriistorm <natriistorm@mail.ru>"]
+readme = "README.md"
+packages = [{include = "keyword_extraction"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

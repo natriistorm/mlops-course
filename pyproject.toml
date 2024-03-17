@@ -8,6 +8,12 @@ packages = [{include = "keyword_extraction"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+torch = "^2.2.1"
+transformers = "^4.38.2"
+pandas = "^2.2.1"
+scikit-learn = "^1.4.1.post1"
+tqdm = "^4.66.2"
+numpy = "^1.26.4"
 
 
 [build-system]

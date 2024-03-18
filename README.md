@@ -3,6 +3,7 @@
 ## Структура проекта
 ```
 .
+├── Dockerfile
 ├── README.md
 ├── commands.py
 ├── keywords_extraction
@@ -10,8 +11,6 @@
 │   └── train.py
 ├── poetry.lock
 └── pyproject.toml
-
-2 directories, 6 files
 
 ```
 

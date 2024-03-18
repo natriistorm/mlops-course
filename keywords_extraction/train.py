@@ -38,7 +38,7 @@ class DataConfig:
     model_save_path: str = './checkpoint'
 
 
-def main() -> None:
+def train() -> None:
     train_path = DataConfig.train_file_path
 
     sentences = pd.read_csv(train_path)['question'].values()

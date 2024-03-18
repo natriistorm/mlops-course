@@ -17,7 +17,7 @@ class DataConfig:
     model_save_path: str = './checkpoint'
 
 
-def main() -> None:
+def infer() -> None:
     sentences = pd.read_csv(DataConfig.eval_file_path)['question'].values()
     tokenizer = BertTokenizer.from_pretrained(ModelConfig.tokenizer_path, do_lower_case=True)
 
